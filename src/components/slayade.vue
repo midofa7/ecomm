@@ -36,8 +36,19 @@ export default {
   props: ["tayp"],
   created: function() {
  // console.log("d")
-this.data = this.$store.getters.dataratle;
+this.data =
   console.log(this.data)
+
+var tab = [];
+var tab2 = [];
+ tab =this.$store.getters.dataratle;
+for (var i=0; i< tab.length ; i++){
+  if(i<7){
+    tab2.push(tab[i])
+  }
+}
+this.data =tab2;
+
   },
   methods: {},
 };

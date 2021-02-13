@@ -46,7 +46,7 @@
                 </div>
               </div>
             </div>
-            <div class="block-bt" v-on:click="AjouteApanye(ardata.id)">
+            <div class="block-bt" >
                   <a class="" href="#"><span>Ajouter au panier</span></a>
               
             </div>

@@ -286,9 +286,6 @@
     transition: all 1s;
 }
 
-.block-Articles .block-Articles_article__img img {
-    width: 100%;
-}
 .block-Articles .block-Articles_article__img {
     padding: 22px 9%;
     border-bottom: #cfcfcf solid 1px;
@@ -527,4 +524,9 @@ okpopqp .modal-dialog {
     display: block;
     width: 80%;
     height: 189px;
+}
+.block-Articles .block-Articles_article__img img {
+    width: 95%;
+    height: 200px;
+    border-radius: 14px;
 }
