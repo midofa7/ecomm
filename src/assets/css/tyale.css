@@ -523,3 +523,8 @@ okpopqp .modal-dialog {
 .owl-dots {
     padding-top: 20px;
 }
+.owl-carousel .owl-item img {
+    display: block;
+    width: 80%;
+    height: 189px;
+}
