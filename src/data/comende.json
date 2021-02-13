@@ -1,0 +1,21 @@
+{
+    "comende": [
+        {
+            "id": "33#33",
+            "NemaPersone": "GAL 1K ",
+            "email": "mmmm@gmail.com",
+            "aderss_cline":"dddd",
+            "tel":"02020202",
+            "leprdoui": 
+                {
+                    "id":"e8",
+                    "type":"xx",
+                    "nemaProduit":"ddd",
+                    "prex":520,
+                    "Qontute":5
+                }
+            ,
+            "totaldePrex": 1222
+        }
+    ]
+}
