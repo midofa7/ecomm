@@ -1,5 +1,60 @@
 <template>
   <div>
+  <div class="munemobille2">
+         
+    <div class="">
+      <div class="phone">
+        <div class="">
+          
+          <nav role="navigation">
+            <div id="menuToggle">
+              <input type="checkbox" />
+                <span></span>
+                <span></span>
+                <span></span>
+            <ul id="menu">
+              <li><a href="#">Home</a></li>
+                <li class="">
+                  <a class="link" href="#">
+                    <router-link :to="{ path: '/', name: 'Home',  }"
+                      >Visage</router-link
+                    >
+                  </a>
+                </li>
+                <li class="">
+                  <a class="link" href="#"><router-link :to="{ path: '/Hygiene', name: 'Hygiene', }"
+                      >Hygiène</router-link
+                    > </a>
+                </li>
+                <li class="">
+                  <a class="link" href="#">
+                  <router-link :to="{ path: '/p1', name: '',  }"
+                      >Santé</router-link
+                    >
+                   </a>
+                </li>
+                <li class="">
+                  <a class="link" href="#">
+                  <router-link :to="{ path: '/p2', name: 'Home',  }"
+                      >Solaire</router-link
+                    > </a>
+                </li>
+
+                <li class="">
+                  <a class="link" href="#">
+                  <router-link :to="{ path: '/p3', name: '',  }"
+                      >AROMATHÉRAPIE</router-link
+                    ></a>
+                </li>
+              
+            </ul>
+           </div>
+          </nav>
+        </div>
+       </div>
+    </div>
+   
+  </div>
     <div class="mounadelapaje_le">
       <div class="top__munePrcipal">
         <div class="contuunenuu__">
@@ -92,4 +147,5 @@ export default {
 };
 </script>
 <style scoped>
+
 </style>

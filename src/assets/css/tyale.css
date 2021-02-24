@@ -4,6 +4,12 @@
     padding: 5px 8%;
 }
 
+
+.sou2als_2-de-site {
+    display: block;
+}
+
+
 .mounadelapaje_le .top__munePrcipal .contuunenuu__ .tet___email h3 {
     font-size: 17px;
     margin-top: 20px;
@@ -530,3 +536,287 @@ okpopqp .modal-dialog {
     height: 200px;
     border-radius: 14px;
 }
+.mounadelapaje_le .mune___bottn{
+    display: block;
+}
+.munemobille2{
+    display: none;
+}
+@media screen and (max-width: 760px) {
+    .munemobille2 ul#menu {
+        padding-top: 68px;
+    }
+    .mounadelapaje_le .top__munePrcipal .contuunenuu__ .tet___email h3 {
+        font-size: 17px;
+        margin-top: 20px;
+        padding-left: 10%;
+        display: none;
+        font-family: auto;
+        color: #422c09;
+    }
+.munemobille2{
+    display: block;
+}
+    .mounadelapaje_le .mune___bottn{
+        display: none;
+    }
+    body {
+    background-color: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  a {
+    text-decoration: none;
+    color: #1E1E23;
+    opacity:1;
+    font-family: 'work sans', sans serif;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: 200ms;
+  }
+  a:hover {
+    opacity:0.5;
+  }
+  ul {
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  
+  
+  .container {
+    margin-top: 50px; 
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .content {
+    border: 1px solid #36383F;
+    border-radius: 20px;
+    width: 94%;
+    height: 91%;
+    background-color: #F5F6FA;
+    overflow: hidden;
+  }
+  nav {
+    background-color:#93bd02;
+    height: 65px;
+  }
+  
+  
+  #menuToggle {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25px;
+    left: 25px;
+    z-index: 1;
+    -webkit-user-select: none;
+    user-select: none;
+  }
+  
+  #menuToggle input
+  {
+    display: flex;
+    width: 40px;
+    height: 32px;
+    position: absolute;
+    cursor: pointer;
+    opacity: 0;
+    z-index: 2;
+  }
+  
+  #menuToggle span
+  {
+    display: flex;
+    width: 29px;
+    height: 2px;
+    margin-bottom: 5px;
+    position: relative;
+    background: #ffffff;
+    border-radius: 3px;
+    z-index: 1;
+    transform-origin: 5px 0px;
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                background 0.5s cubic-bezier(0.77,0.2,0.05,1.0),
+                opacity 0.55s ease;
+  }
+  
+  #menuToggle span:first-child
+  {
+    transform-origin: 0% 0%;
+  }
+  
+  #menuToggle span:nth-last-child(2)
+  {
+    transform-origin: 0% 100%;
+  }
+  
+  #menuToggle input:checked ~ span
+  {
+    opacity: 1;
+    transform: rotate(45deg) translate(-3px, -1px);
+    background: #36383F;
+  }
+  #menuToggle input:checked ~ span:nth-last-child(3)
+  {
+    opacity: 0;
+    transform: rotate(0deg) scale(0.2, 0.2);
+  }
+  
+  #menuToggle input:checked ~ span:nth-last-child(2)
+  {
+    transform: rotate(-45deg) translate(0, -1px);
+  }
+  
+  #menu
+  {
+    position: absolute;
+    width: 180px;
+    height: 400px;
+    box-shadow: 0 0 10px #85888C;
+    margin: -50px 0 0 -50px;
+    padding: 50px;
+    padding-top: 125px;
+    background-color: #F5F6FA;
+    -webkit-font-smoothing: antialiased;
+    transform-origin: 0% 0%;
+    transform: translate(-100%, 0);
+    transition: transform 0.5s cubic-bezier(0.77,0.2,0.05,1.0);
+  }
+  
+  #menu li
+  {
+    padding: 10px 0;
+    transition-delay: 2s;
+  }
+  
+  #menuToggle input:checked ~ ul
+  {
+    transform: none;
+  }
+  .footer__deSeti .block-fotrr .top .icon {
+    width: 38px;
+    position: absolute;
+    top: -24px;
+    right: 3%;
+}
+.bloocl-detay.block-detail_Article .block-image img {
+    position: relative;
+    top: 26px;
+    width: 81%;
+    left: 9%;
+    box-shadow: 10px 10px 5px 0px rgb(0 0 0 / 75%);
+    -webkit-box-shadow: 0px 0px 11px 1px #78655f;
+    -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    border-radius: 45px;
+}
+.bloocl-detay.block-detail_Article .block-taitell h2 {
+    color: #0e3d66;
+    font-family: fangsong;
+    font-style: oblique;
+    margin-top: 25px;
+    margin-bottom: 1px;
+    padding: 1px 5%;
+}
+.salydar-dela-paje .block-taitell h2 {
+    text-align: center;
+    color: #3f2803;
+    font-size: 21px;
+    margin-top: -7px;
+    margin-bottom: 1px;
+    font-family: emoji;
+    font-weight: 800;
+    padding: 2px 6%;
+}.owl-carousel .owl-item img {
+    display: block;
+    width: 99%;
+    height: 189px;
+}
+.salydar-dela-paje .block-image {
+    padding: 14px 17%;
+    margin-top: -83px;
+}
+
+.salydar-dela-paje .block-bt a::before {
+    content: "";
+    background-image: url(/img/paniers.ff03f82b.svg);
+    width: 43px;
+    display: inline-block;
+    height: 27px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 9px;
+    left: 20%;
+}
+.salydar-dela-paje .block-image span {
+    width: 100%;
+    position: relative;
+    text-align: center;
+    display: none;
+    font-size: 15px;
+    top: 20px;
+    left: 25%;
+    color: #ffffff;
+    padding: 7px 46px;
+    background-color: #639b22;
+    border-radius: 4px 14px;
+}
+.block-bt a::before {
+    content: "";
+    background-image: url(/img/paniers.ff03f82b.svg);
+    width: 43px;
+    display: inline-block;
+    height: 27px;
+    margin-right: 15px;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 11px;
+    left: 7%;
+}
+.block-prix h2 {
+    font-size: 42px;
+    margin-bottom: -3px;
+    margin-top: 123px;
+    color: #569207eb;
+    text-align: center;
+}
+.bloocl-detay.block-detail_Article .block-list {
+    color: #9e9e9e;
+    font-family: math;
+    font-size: 17px;
+    font-weight: 300;
+    margin-bottom: -122px;
+    margin-top: -34px;
+    padding: 4px 4%;
+}
+.container {
+    margin-top: 0px;
+    Display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blokpopqp .modal-dialog {
+    margin: 75px 1%!important;
+    max-width: 22%!important;
+}
+.sou2als_2-de-site {
+    display: none;
+}
+.munemobille2 ul#menu {
+    padding-top: 68px;
+    width: 96%;
+    height: 539px;
+}
+.munemobille2 ul#menu a {
+    text-decoration: none;
+    color: #1E1E23;
+    font-family: emoji;
+    font-size: 1.5em;
+    font-weight: 400;
+    transition: 235ms;
+    font-size: 28px;
+}
+  }
